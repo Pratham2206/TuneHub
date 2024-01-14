@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(45deg, #1E88E5, rgb(255, 255, 255));
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+ }
+ .card {
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+ }
+ .card-body {
+    padding: 2rem;
+ }
+ .form-control {
+    border-radius: 25px;
+ }
+ .btn {
+    border-radius: 25px;
+    background: linear-gradient(45deg, #3949AB, #6A1B9A);
+    color: white;
+ }
