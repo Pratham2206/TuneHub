@@ -27,7 +27,7 @@ public class NavController
 		return "newSong";
 	}
 	
-	//Maping between the createPlaylist page
+	//Mapping between the createPlaylist page
 	@GetMapping("/addPlaylist")
 	public String createPlaylist() {
 		return "addPlaylist";
