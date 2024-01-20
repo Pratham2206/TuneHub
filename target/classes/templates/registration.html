@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Module</title>
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous">
+<link rel="stylesheet" th:href="@{/CSS/registration.css}">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div
+				class="col-lg-6 col-md-6 col-sm-6 container justify-content-center card">
+				<h2 class="text-center">Register Form</h2>
+				<div class="card-body">
+
+					<form action="register" method="post">
+						<div class="form-group">
+							<label>User name: </label> <input class="form-control"
+								type="text" placeholder="enter the username" name="username">
+						</div>
+
+						<div class="form-group">
+							<label>Email: </label> <input class="form-control" type="text"
+								placeholder="enter the email-id" name="email">
+						</div>
+
+						<div class="form-group">
+							<label>Password: </label> <input class="form-control" type="text"
+								placeholder="enter the password" name="password">
+						</div>
+
+						<div class="form-group">
+							<label>Gender: </label> <label>Male </label><input type="radio"
+								value="male" name="gender"> <label>Female </label><input
+								type="radio" value="female" name="gender"> <label>Others
+							</label><input type="radio" value="others" name="gender">
+						</div>
+
+						<div class="form-group">
+							<label>Role: </label> <label>Admin </label><input type="radio"
+								value="admin" name="role"> <label>Customer</label><input
+								type="radio" value="customer" name="role">
+						</div>
+
+						<div class="form-group">
+							<label>Address: </label>
+							<textarea class="form-control" name="address"></textarea>
+						</div>
+
+						<input class="btn btn-primary" type="submit" value="Register">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #400000; 
+}
+
+.non-premium {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db; 
+}
+
+a:hover {
+    color: #2980b9; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ecf0f1;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #004080; 
+
+.audio-controls {
+    margin-top: 10px;
+}
